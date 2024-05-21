@@ -8,7 +8,7 @@ This repository contains a Java program that converts arithmetic expressions fro
 - `Node.java`: Defines the node structure used in the linked list.
 - `LinkedList.java`: Implements the linked list structure to store polynomial terms.
 - `Stack.java`: Implements the stack structure to manage the conversion and evaluation process.
-- `Homework1.java`: Main class to handle the conversion from infix to postfix notation and the evaluation of the postfix expression.
+- `Main.java`: Main class to handle the conversion from infix to postfix notation and the evaluation of the postfix expression.
 
 ## Algorithm Explanation
 
@@ -28,8 +28,8 @@ The `Stack` class manages the nodes and provides methods to manipulate the stack
 - `pop()`: Pops a node from the stack.
 - `isEmpty()`: Checks if the stack is empty.
 
-### Homework1 Class
-The `Homework1` class contains the main method to run the program:
+### Main Class
+The `Main` class contains the main method to run the program:
 - Reads an arithmetic expression in infix notation.
 - Converts the infix expression to postfix notation using a stack.
 - Evaluates the postfix expression using a stack and linked lists for polynomial terms.
